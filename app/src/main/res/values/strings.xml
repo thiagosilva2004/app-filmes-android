@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Filmes</string>
+    <string name="mais_detalhes">Mais Detalhes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slider_dos_filmes_populares">slider dos filmes populares</string>
+    <string name="sub_menu_do_slider">sub menu do slider</string>
+    <string name="os_filmes_mais_populares">Os filmes mais populares</string>
+    <string name="os_filmes_mais_assitidos_atualmente">Os filmes mais assitidos</string>
+</resources>
