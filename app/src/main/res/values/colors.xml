@@ -10,4 +10,9 @@
     <color name="colorPrimary">#151e25</color>
     <color name="colorSecond">#f1b014</color>
     <color name="gray">#D3D3D3</color>
+    <color name="text_bg_blue">#1a242f</color>
+    <color name="dark_green">#054a25</color>
+    <color name="light_green">#5fd121</color>
+    <color name="dark_red">#a80f0a</color>
+    <color name="light_red">#e33e39</color>
 </resources>

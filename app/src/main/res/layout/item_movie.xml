@@ -19,6 +19,22 @@
         app:srcCompat="@drawable/ic_av_background" />
 
     <TextView
+        android:id="@+id/item_vote_movie"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_vote"
+        android:gravity="center"
+        android:text="80"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/item_img_movie"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
         android:id="@+id/item_title_movie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,6 +42,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
+        android:lines="1"
         android:textColor="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

@@ -16,7 +16,13 @@
         android:theme="@style/Theme.Filmes"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.PesquisaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MovieDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

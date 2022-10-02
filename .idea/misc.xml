@@ -3,18 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1185" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/bg_vote.xml" value="0.1185" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/bg_vote_bom.xml" value="0.1185" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/bg_vote_otimo.xml" value="0.1185" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/bg_vote_pessimo.xml" value="0.1185" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/bg_vote_ruim.xml" value="0.1185" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/default_indicator.xml" value="0.119" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/gradient_bg.xml" value="0.119" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/ic_av_background.xml" value="0.1185" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.119" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.119" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/ic_baseline_play_circle_outline_24.xml" value="0.119" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/ic_filmes_background.xml" value="0.1185" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/indicator_select.xml" value="0.119" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/drawable/select_indicator.xml" value="0.119" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/activity_movie_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/activity_movie_detail2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/activity_pesquisa.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/fragment_slider.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/item_elenco.xml" value="0.203125" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/item_movie.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/layout/slider_item.xml" value="0.203125" />
+        <entry key="..\:/Users/Micro/AndroidStudioProjects/Filmes/app/src/main/res/menu/menu_principal.xml" value="0.203125" />
       </map>
     </option>
   </component>

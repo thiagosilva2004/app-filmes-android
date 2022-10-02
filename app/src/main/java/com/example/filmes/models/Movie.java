@@ -1,20 +1,20 @@
-package com.example.filmes;
+package com.example.filmes.models;
 
 public class Movie {
     private String title;
     private String img;
     private int id;
-    private Number vote;
+    private double vote;
 
-    public Number getVote() {
+    public double getVote() {
         return vote;
     }
 
-    public void setVote(Number vote) {
+    public void setVote(double vote) {
         this.vote = vote;
     }
 
-    public Movie(String title, String img, int id, Number vote) {
+    public Movie(String title, String img, int id, double vote) {
         this.title = title;
         this.img = img;
         this.id = id;

@@ -1,4 +1,4 @@
-package com.example.filmes;
+package com.example.filmes.models;
 
 import android.os.AsyncTask;
 import android.util.Log;

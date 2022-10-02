@@ -1,4 +1,4 @@
-package com.example.filmes;
+package com.example.filmes.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,52 +9,54 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.filmes.R;
+import com.example.filmes.models.Elenco;
+import com.example.filmes.models.Movie;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-public class AdapterMovie extends RecyclerView.Adapter<AdapterMovie.MyViewHolder> {
 
-    private List<Movie> movieList;
+public class AdapterElenco extends RecyclerView.Adapter<AdapterElenco.MyViewHolder> {
 
-    public AdapterMovie(List<Movie> movieList) {
-        this.movieList = movieList;
+    private List<Elenco> elencoList;
+
+    public AdapterElenco(List<Elenco> elencoList) {
+        this.elencoList = elencoList;
     }
 
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_movie, parent, false);
+                .inflate(R.layout.item_elenco, parent, false);
 
         return new MyViewHolder(itemLista);
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        Movie movie = movieList.get(position);
+        Elenco elenco = elencoList.get(position);
 
-        holder.itemTitle.setText(movie.getTitle());
         Picasso.get()
-                .load(movie.getImg())
+                .load(elenco.getImg())
                 .into(holder.itemImg);
     }
 
     @Override
     public int getItemCount() {
-        return movieList.size();
+        return elencoList.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView itemTitle;
         private ImageView itemImg;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            itemTitle = itemView.findViewById(R.id.item_title_movie);
-            itemImg = itemView.findViewById(R.id.item_img_movie);
+            itemImg = itemView.findViewById(R.id.item_elenco_img);
+
         }
     }
 }

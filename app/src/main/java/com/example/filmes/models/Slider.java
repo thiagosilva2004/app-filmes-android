@@ -1,4 +1,4 @@
-package com.example.filmes;
+package com.example.filmes.models;
 
 public class Slider {
     private String image;
@@ -21,7 +21,7 @@ public class Slider {
         this.id = id;
     }
 
-    public Number getVote() {
+    public Double getVote() {
         return vote;
     }
 

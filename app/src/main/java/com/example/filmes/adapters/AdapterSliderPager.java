@@ -1,4 +1,4 @@
-package com.example.filmes;
+package com.example.filmes.adapters;
 
 
 import android.content.Context;
@@ -9,10 +9,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.PagerAdapter;
 
+import com.example.filmes.R;
+import com.example.filmes.models.Slider;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -42,6 +42,19 @@ public class AdapterSliderPager extends PagerAdapter {
 
         slideTitle.setText(slider.getTitle());
         slideVote.setText(slider.getVote().toString());
+
+        if (slider.getVote() >= 8.5){
+            slideVote.setBackgroundResource(R.drawable.bg_vote_otimo);
+        }else if(slider.getVote() >= 7.0){
+            slideVote.setBackgroundResource(R.drawable.bg_vote_bom);
+        }else if(slider.getVote() >= 5.0){
+            slideVote.setBackgroundResource(R.drawable.bg_vote);
+        }else if(slider.getVote() >= 3.5){
+            slideVote.setBackgroundResource(R.drawable.bg_vote_ruim);
+        }else{
+            slideVote.setBackgroundResource(R.drawable.bg_vote_pessimo);
+        }
+
         Picasso.get()
                 .load(slider.getImage())
                 .into(slideImg);
