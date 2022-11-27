@@ -234,6 +234,7 @@ public class MainActivity extends AppCompatActivity implements MovieItemClick {
             }
         });
 
+
         return super.onCreateOptionsMenu(menu);
     }
 

@@ -4,6 +4,8 @@
     package="com.example.filmes">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -16,11 +18,29 @@
         android:theme="@style/Theme.Filmes"
         tools:targetApi="31">
         <activity
-            android:name=".ui.PesquisaActivity"
-            android:exported="false" />
+            android:name=".NavegationDrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navegation_drawer"
+            android:theme="@style/Theme.Filmes.NoActionBar" />
         <activity
-            android:name=".ui.MovieDetailActivity"
-            android:exported="false" />
+            android:name=".ui.PesquisaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+        </activity>
+        <activity android:name=".ui.MovieDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+        </activity>
+        <activity android:name=".ui.MoviePlayerActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MovieDetailActivity" />
+        </activity>
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">

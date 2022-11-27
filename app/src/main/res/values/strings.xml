@@ -13,4 +13,19 @@
     <string name="filmes_parecidos">Filmes Parecidos</string>
     <string name="pesquisa">Pesquisa</string>
     <string name="filmes_encontrados">Filmes Encontrados</string>
+    <string name="title_activity_navegation_drawer">NavegationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Filmes</string>
+    <string name="nav_header_subtitle">filmes.studio@filmes.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="novidades">Novidades</string>
+    <string name="terror">Terror</string>
+    <string name="a_o">Ação</string>
+    <string name="com_dia">Comédia</string>
 </resources>

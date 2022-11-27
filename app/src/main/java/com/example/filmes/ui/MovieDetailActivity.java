@@ -49,13 +49,14 @@ public class MovieDetailActivity extends AppCompatActivity implements MovieItemC
     private List<Elenco> elencoList;
     private RecyclerView rv_similar_movies;
     private List<Movie> movieSimilarList;
+    private int id;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_detail);
 
-        int id = getIntent().getExtras().getInt("id");
+        id = getIntent().getExtras().getInt("id");
         elencoList = new ArrayList<>();
         movieSimilarList = new ArrayList<>();
 
@@ -63,6 +64,15 @@ public class MovieDetailActivity extends AppCompatActivity implements MovieItemC
         montar_detalhes_filmes(id);
         montar_elenco_filmes(id);
         montarSimilarMovies(id);
+
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MovieDetailActivity.this, MoviePlayerActivity.class);
+                intent.putExtra("id", id);
+                startActivity(intent);
+            }
+        });
     }
 
     private void inicializar_componentes(){
